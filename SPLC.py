@@ -1,4 +1,4 @@
-def parse_fasta(filename):
+def splicing(filename):
     f = open(filename)
     sequences = []
     oneline = ''
@@ -28,7 +28,7 @@ def encoding(rna):
     return protein
 
 def main(filename):
-    dnastrings = parse_fasta(filename)
+    dnastrings = splicing(filename)
     fulldna = dnastrings[0]
     dnastrings = dnastrings[1::]
     for intron in dnastrings:
