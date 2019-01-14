@@ -35,4 +35,4 @@ def main(filename):
         fulldna = fulldna.replace(intron, "")
     return(encoding(fulldna))
 
-print(main("rosa.txt"))
+print(main("rosalind_splc.txt"))
