@@ -1,5 +1,5 @@
 def openingreadframes():
-    rosalind = open("lcsmtext.txt","r")
+    rosalind = open("rosalind_lcsm.txt","r")
     fragment = rosalind.readlines()
     strs=[]
     for line in fragment:
