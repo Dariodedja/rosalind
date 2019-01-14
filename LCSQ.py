@@ -42,7 +42,7 @@ def print_longest_common_subsequence(lhs,rhs):
 i = 0
 string1 = ' '
 string2 = ' '
-for line in open('lcsq_rosalind.txt'):
+for line in open('rosalind_lcsq.txt'):
     if line[0] != '>':
         if i == 1:
             string1 += line.rstrip()
