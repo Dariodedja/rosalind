@@ -17,7 +17,7 @@ def bsearch(number ,Array):
         if max <= min:
             return -1
 
-f = open('BIINS.txt','r')
+f = open('rosalind_bins.txt','r')
 f = f.read()
 f = f.splitlines()
 f.pop(0)
